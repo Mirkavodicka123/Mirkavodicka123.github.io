@@ -2,13 +2,14 @@
 /* CSS Document */
 
 .textdesign {
-  font: 400 80px/0.8 'Great Vibes', Helvetica, sans-serif;
+  font: 4.1vw 'Great Vibes', cursive;
   color:#B03987;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.15); 
 }
 
+
 .textpara {
-	font-size: 25px;	
+	font-size: 180%;	
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	justify-content: center;
 	font-weight: 650;
@@ -28,13 +29,6 @@
 }
 
 
-.circle {
-	border-radius: 50%;
-	width: 100px;
-	height:100px; 
-	background-color: antiquewhite; 
-	/* width and height can be anything, as long as they're equal */
-}
 
 .customNavbar{
 	
@@ -73,12 +67,114 @@ li.a {
 	padding-top: 50px;
 }
 
-{ background-image: url("../image/cleaningLady_burned.png");
-	
-    background-repeat: no-repeat;
-    background-position: top right;
-    margin-right: 500px;
-    background-attachment: fixed;
-	background-size: 600px;
 
+
+
+.page1-conatiner1{
+	height: 650px;
+	max-height: 650px;
+	max-width: 1200px;
+	
+	  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+	margin:40px auto 90px auto;
+	background-color:white;
+	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4); 
+}
+
+.col1{
+	flex: 1;
+	  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin: 0 auto;
+	height: inherit;
+}
+
+.col1-a{
+	flex: 1;
+	margin: 50px auto 0 auto;
+}
+.col1-b{
+	flex: 1;
+	margin: 15px auto 0 auto;
+	white-space: nowrap;
+	
+}
+
+.col2{
+	
+	flex: 3;
+	flex-direction: column;
+	margin: 0 auto;
+	margin: 10px 50px 0 auto;
+	
+	
+
+	
+}
+.col2-a{
+
+}
+
+.page2-conatiner2{
+		height: 620px;
+	max-width: 1200px;
+	display: flex;
+	background: #FFFFFF;
+
+	flex-direction: column;
+
+	margin:40px auto 150px auto;
+	background-color:white;
+	    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);  
+	
+	
+}
+
+.row1{
+	flex: 1;
+	
+}
+
+.row2{
+	flex: 1;
+	margin: 10px 80px 10px 80px
+}
+
+.row3{
+	
+	display:flex;
+	flex: 1;
+	margin: 20px 80px 50px 80px;
+}
+.row3-col1{
+	flex:1;
+	justify-content: center;
+}
+.row3-col2{
+	flex:1;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .page1-conatiner1{
+			height: 10%;
+    }
+	
+	.textpara {
+		font-size: 100%;}
 }
