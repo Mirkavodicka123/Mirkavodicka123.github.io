@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-image: url(../image/bg2.jpg)
+	background-image: url(../image/bg3.jpg);
+	
 }
 
 .textdesign {
@@ -172,6 +173,17 @@ li.a {
 	justify-content: center;
 }
 
+.cont3-row2{
+	display: flex;
+	flex: 1;
+	margin: 0 auto;
+}
+
+.col1-c{
+	flex: 1;
+	margin: 0 auto;
+}
+
 @media only screen and (max-width: 700px) {
     
     .page1-conatiner1{
@@ -180,7 +192,10 @@ li.a {
     }
 	
 	.textpara {
-		font-size: 100%;}
+		font-size: 100%;
+		font-weight:200;
+	}
+	
 	
 	.textdesign {
 		font: 28px 'Great Vibes', cursive;}
