@@ -2,7 +2,7 @@
 /* CSS Document */
 body{
 	background-image: url(../image/bg3.jpg);
-	min-width: 750px;
+min-width: 750px;
 	
 	
 }
@@ -74,8 +74,7 @@ li.a {
 .contact-icons
 {
 	width:90px;
-	padding-bottom: 40px;
-	padding-top: 50px;
+
 }
 
 
@@ -155,6 +154,7 @@ li.a {
 
 .row1{
 	flex: 1;
+	margin:50px auto 0 auto;
 	
 }
 
@@ -178,15 +178,36 @@ li.a {
 	justify-content: center;
 }
 
+.Contact-parentCont{
+			height: 620px;
+	max-width: 1200px;
+	display: flex;
+	background: #FFFFFF;
+
+	flex-direction: column;
+
+	margin:40px auto 150px auto;
+	background-color:white;
+	    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);  
+}
+
 .cont3-row2{
 	display: flex;
 	flex: 1;
-	margin: 0 auto;
+	
 }
-
-.col1-c{
+.email-col{
+	flex:1;
+	
+}
+.phone-col{
+	flex:1;
+}
+.faceb-col{
 	flex: 1;
-	margin: 0 auto;
+	
 }
 
 @media only screen and (max-width: 699px) {
@@ -202,7 +223,7 @@ li.a {
 	}
 	
 	
-	.textdesign {
+	h1.textdesign {
 		font: 32px 'Great Vibes', cursive;}
 	
 	.girl-img{
