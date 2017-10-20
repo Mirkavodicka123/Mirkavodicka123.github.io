@@ -2,9 +2,15 @@
 /* CSS Document */
 body{
 	background-image: url(../image/bg3.jpg);
+	min-width: 750px;;
 	
 }
 
+.girl-img{
+	 width:50%; 
+	position: absolute; 
+	
+}
 .textdesign {
   font: 50px 'Great Vibes', cursive;
   color:#B03987;
@@ -76,6 +82,7 @@ li.a {
 
 .page1-conatiner1{
 	height: 650px;
+	
 	max-height: 650px;
 	max-width: 1200px;
 	min-width: 300px;
@@ -84,7 +91,7 @@ li.a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-	margin:40px auto 90px auto;
+	margin:40px auto 150px auto;
 	background-color:white;
 	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
@@ -121,10 +128,7 @@ li.a {
 	flex: 3;
 	flex-direction: column;
 	margin: 0 auto;
-	margin: 10px 50px 0 auto;
-	
-	
-
+	overflow: hidden;
 	
 }
 .col2-a{
@@ -184,7 +188,7 @@ li.a {
 	margin: 0 auto;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 699px) {
     
     .page1-conatiner1{
 			height: 300px;
@@ -200,5 +204,9 @@ li.a {
 	.textdesign {
 		font: 28px 'Great Vibes', cursive;}
 	
+	.girl-img{
+		position: absolute;
+		width: 95%;
+	}
 
 }
