@@ -5,7 +5,7 @@ body{
 }
 
 .textdesign {
-  font: 4.1vw 'Great Vibes', cursive;
+  font: 50px 'Great Vibes', cursive;
   color:#B03987;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.15); 
 }
@@ -77,7 +77,7 @@ li.a {
 	height: 650px;
 	max-height: 650px;
 	max-width: 1200px;
-	
+	min-width: 300px;
 	  display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -175,9 +175,15 @@ li.a {
 @media only screen and (max-width: 700px) {
     
     .page1-conatiner1{
-			height: 10%;
+			height: 300px;
+		
     }
 	
 	.textpara {
 		font-size: 100%;}
+	
+	.textdesign {
+		font: 28px 'Great Vibes', cursive;}
+	
+
 }
