@@ -24,7 +24,7 @@ min-width: 750px;
 	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	justify-content: center;
 	font-weight: 650;
-	line-height: 130%;
+	line-height: 150%;
 }
 
 
@@ -107,6 +107,7 @@ li.a {
 	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4); 
+	border-radius: 60px;
 }
 
 .col1{
@@ -159,6 +160,7 @@ li.a {
 	    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);  
+	border-radius: 25px;
 	
 	
 }
@@ -201,6 +203,7 @@ li.a {
 	    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);  
+	border-radius: 25px;
 }
 
 .cont3-row2{
@@ -229,7 +232,7 @@ li.a {
 	
 	.textpara {
 		font-size: 150%;
-		font-weight:600;
+		font-weight:300;
 	}
 	
 	
