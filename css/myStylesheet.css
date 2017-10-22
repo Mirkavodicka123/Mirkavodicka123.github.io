@@ -21,7 +21,7 @@ min-width: 750px;
 
 .textpara {
 	font-size: 180%;	
-	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	justify-content: center;
 	font-weight: 650;
 	line-height: 150%;
@@ -107,7 +107,7 @@ li.a {
 	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4); 
-	border-radius: 60px;
+	border-radius: 120px;
 }
 
 .col1{
@@ -160,7 +160,7 @@ li.a {
 	    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);  
-	border-radius: 25px;
+	border-radius: 120px;
 	
 	
 }
@@ -203,7 +203,7 @@ li.a {
 	    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);  
-	border-radius: 25px;
+	border-radius: 120px;
 }
 
 .cont3-row2{
